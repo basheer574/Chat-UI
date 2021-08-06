@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@drawable/layout_color"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/chat_shape"
+            android:text="@string/msg_one"
+            ></TextView>
+
+        <TextView
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/chat_shape"
+            android:text="@string/msg_two"
+            ></TextView>
+
+        <TextView
+            android:ellipsize="end"
+            android:maxEms="14"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:background="@drawable/chat_shape_two"
+            android:text="@string/msg_three"
+            ></TextView>
+
+        <TextView
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/chat_shape"
+            android:text="@string/msg_four"
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="12dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/editbox_shape"
+            android:drawableStart="@drawable/sticker"
+            android:drawableEnd="@drawable/link"
+            >
+        </EditText>
+    </LinearLayout>
+
+
+</LinearLayout>
+
